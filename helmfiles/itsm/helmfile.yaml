@@ -3,9 +3,10 @@ repositories:
     url: https://charts.bitnami.com/bitnami
 
 releases:
-  - name: nginx-test
+  - name: redis-test
     namespace: itsm-dev
-    chart: bitnami/nginx
-    version: 13.2.27
+    chart: bitnami/redis
+    version: 20.2.1
     values:
-      - replicaCount: 1
+      - replica:
+          replicaCount: 1
