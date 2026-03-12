@@ -3,10 +3,6 @@ repositories:
     url: https://charts.bitnami.com/bitnami
 
 releases:
-  - name: redis-test
+  - name: apache-test
     namespace: itsm-dev
-    chart: bitnami/redis
-    version: 20.2.1
-    values:
-      - replica:
-          replicaCount: 1
+    chart: bitnami/apache
